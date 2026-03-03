@@ -17,7 +17,7 @@ public class Main {
         mt2.estudante();*/
         /*Metodo3 mt3 = new Metodo3();
         mt3.crescente(6);*/
-        Metodo4 mt4 = new Metodo4();
+        /*Metodo4 mt4 = new Metodo4();
         int[] numeros  = new int[5];
         for(int i = 0; i< numeros.length;i++){
             System.out.println("Digite o vetor "+(i+1)+":");
@@ -26,6 +26,9 @@ public class Main {
         }
         mt4.maiorElemento(numeros.length,numeros);
         mt4.menorElemento(numeros.length,numeros);
-        mt4.mediaValores(numeros.length,numeros);
+        mt4.mediaValores(numeros.length,numeros);*/
+
+        Metodo6 mt6 = new Metodo6();
+        mt6.generateStarWarsName("João","Pedro","Luanda","Blumenau");
     }
 }
